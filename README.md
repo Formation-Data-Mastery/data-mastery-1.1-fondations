@@ -19,15 +19,15 @@ Les deux premières leçons sont des guides texte disponibles sur le site de la 
 | 01 | [Introduction à Claude Code](https://datamastery.dev/module-1/lecon-1-1-quest-ce-que-claude-code) | 30 min | Comprendre l'agent, ses outils, et en quoi il diffère d'un chatbot |
 | 02 | [Installation et configuration](https://datamastery.dev/module-1/lecon-1-2-installation) | 45 min | Terminal, VS Code, Node.js, Claude Code, Python, uv, Git |
 
-### Notebooks
+### Leçons avec notebooks
 
-Les notebooks sont le support pratique — code exécutable, exemples concrets, visualisations. Les ouvrir dans VS Code (extension Jupyter).
+Chaque leçon a une page sur le site (concepts, explications) et un notebook dans ce dépôt (code exécutable, exemples). Ouvrir les notebooks dans VS Code (extension Jupyter).
 
-| # | Notebook | Durée | Description |
-|---|----------|-------|-------------|
-| 03 | [Premier graphique](notebooks/03_premier_graphique.ipynb) | 60 min | Du CSV au graphique Plotly interactif — 5 exemples concrets |
-| 04 | [Comprendre le dialogue](notebooks/04_comprendre_dialogue.ipynb) | 45 min | Architecture agent, outils, permissions, optimisation des instructions |
-| 05 | [Cas d'étude : énergie industrielle](notebooks/05_cas_etude_energie.ipynb) | 60 min | 2 600 lignes de données GTC → 4 graphiques, 3 insights métier |
+| # | Leçon (site) | Notebook (code) | Durée | Description |
+|---|-------------|-----------------|-------|-------------|
+| 03 | [Premier graphique](https://datamastery.dev/module-1/lecon-1-3-premier-graphique) | [notebook](notebooks/03_premier_graphique.ipynb) | 60 min | Du CSV au graphique Plotly interactif — 5 exemples concrets |
+| 04 | [Comprendre le dialogue](https://datamastery.dev/module-1/lecon-1-4-comprendre-le-dialogue) | [notebook](notebooks/04_comprendre_dialogue.ipynb) | 45 min | Architecture agent, outils, permissions, optimisation des instructions |
+| 05 | [Cas d'étude : énergie industrielle](https://datamastery.dev/module-1/cas-etude-premier-graphique-energie) | [notebook](notebooks/05_cas_etude_energie.ipynb) | 60 min | 2 600 lignes de données GTC → 4 graphiques, 3 insights métier |
 
 ### Exercices
 
