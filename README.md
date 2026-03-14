@@ -13,8 +13,8 @@
 
 | # | Contenu | Durée | Description |
 |---|---------|-------|-------------|
-| 01 | [Introduction à Claude Code](notebooks/01_introduction_claude_code.ipynb) | 30 min | Comprendre l'agent, ses outils, et en quoi il diffère d'un chatbot |
-| 02 | [Installation et configuration](https://datamastery.dev/module-1/lecon-1-2-installation) | 45 min | Guide pas à pas sur le site — Terminal, VS Code, Node.js, Claude Code, Python, uv, Git |
+| 01 | [Introduction à Claude Code](https://datamastery.dev/module-1/lecon-1-1-quest-ce-que-claude-code) | 30 min | Comprendre l'agent, ses outils, et en quoi il diffère d'un chatbot |
+| 02 | [Installation et configuration](https://datamastery.dev/module-1/lecon-1-2-installation) | 45 min | Guide pas à pas — Terminal, VS Code, Node.js, Claude Code, Python, uv, Git |
 | 03 | [Premier graphique](notebooks/03_premier_graphique.ipynb) | 60 min | Du CSV au graphique Plotly interactif — 5 exemples concrets |
 | 04 | [Comprendre le dialogue](notebooks/04_comprendre_dialogue.ipynb) | 45 min | Architecture agent, outils, permissions, optimisation des instructions |
 | 05 | [Cas d'étude : énergie industrielle](notebooks/05_cas_etude_energie.ipynb) | 60 min | 2 600 lignes de données GTC → 4 graphiques, 3 insights métier |
