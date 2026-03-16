@@ -1,88 +1,61 @@
-# Module 1.1 — Premiers pas : de la donnée au graphique
+# Module 1 — Premiers pas : de la donnée au graphique
 
-> De la donnée brute au graphique exploitable en une session. Ce module pose les fondations : installation de l'environnement, premier contact avec Claude Code, et création de visualisations à partir de données industrielles réelles.
+Ce dossier contient les données et exercices du premier module de la formation [Data Mastery](https://datamastery.dev).
 
-## Prérequis
+## Comment suivre ce module
 
-- Un ordinateur (Mac, Windows ou Linux)
-- Aucune expérience en programmation requise
-- Avoir suivi les leçons 1 et 2 sur [datamastery.dev](https://datamastery.dev) (introduction + installation)
+1. Ouvrir les leçons sur le site [datamastery.dev](https://datamastery.dev)
+2. Suivre les instructions pas à pas
+3. Taper les commandes et les prompts Claude Code soi-meme
+4. Les fichiers de donnees sont dans le dossier `data/`
 
-## Leçons
+## Demarrage
 
-Chaque leçon a une page sur le site (concepts, explications) et, quand le contenu est pratique, un notebook dans ce dépôt (code exécutable). Ouvrir les notebooks dans VS Code (extension Jupyter).
-
-| # | Leçon (site) | Notebook | Durée | Description |
-|---|-------------|----------|-------|-------------|
-| 01 | [Introduction à Claude Code](https://datamastery.dev/module-1/lecon-1-1-quest-ce-que-claude-code) | — | 30 min | Comprendre l'agent, ses outils, et en quoi il diffère d'un chatbot |
-| 02 | [Installation et configuration](https://datamastery.dev/module-1/lecon-1-2-installation) | — | 45 min | Terminal, VS Code, Node.js, Claude Code, Python, uv, Git |
-| 03 | [Premier graphique](https://datamastery.dev/module-1/lecon-1-3-premier-graphique) | [notebook](notebooks/03_premier_graphique.ipynb) | 60 min | Du CSV au graphique Plotly interactif — 5 exemples concrets |
-| 04 | [Comprendre le dialogue](https://datamastery.dev/module-1/lecon-1-4-comprendre-le-dialogue) | [notebook](notebooks/04_comprendre_dialogue.ipynb) | 45 min | Architecture agent, outils, permissions, optimisation des instructions |
-| 05 | [Cas d'étude : énergie](https://datamastery.dev/module-1/cas-etude-premier-graphique-energie) | [notebook](notebooks/05_cas_etude_energie.ipynb) | 60 min | 2 600 lignes GTC → 4 graphiques, 3 insights métier |
-
-### Exercices
-
-Chaque exercice existe en deux versions : l'énoncé (à compléter) et la correction.
-
-| # | Exercice | Niveau | Durée |
-|---|----------|--------|-------|
-| 1 | Explorer un CSV ([énoncé](exercices/exercice_1_ENONCE.ipynb) / [correction](exercices/exercice_1_CORRECTION.ipynb)) | Débutant | 20 min |
-| 2 | Créer 3 graphiques ([énoncé](exercices/exercice_2_ENONCE.ipynb) / [correction](exercices/exercice_2_CORRECTION.ipynb)) | Intermédiaire | 40 min |
-| 3 | Analyse complète ([énoncé](exercices/exercice_3_ENONCE.ipynb) / [correction](exercices/exercice_3_CORRECTION.ipynb)) | Avancé | 60 min |
-
-### Données
-
-| Fichier | Lignes | Description |
-|---------|--------|-------------|
-| `data/consommation_energie.csv` | ~2 600 | Export GTC : consommation électricité/gaz par bâtiment et zone |
-| `data/production_industrielle.csv` | ~1 500 | Production manufacturière : quantités, défauts, temps d'arrêt |
-| `data/capteurs_temperature.csv` | ~500 | Capteurs IoT : température et humidité toutes les 15 minutes |
-
-## Démarrage rapide
+Ouvrir un terminal et taper ces 4 commandes :
 
 ```bash
-# Cloner le dépôt
 git clone https://github.com/Formation-Data-Mastery/data-mastery-1.1-premiers-pas.git
 cd data-mastery-1.1-premiers-pas
-
-# Installer les dépendances
 uv sync
-
-# Ouvrir dans VS Code
 code .
 ```
 
-Puis ouvrir un notebook (`.ipynb`) depuis l'explorateur de fichiers de VS Code. Sélectionner le kernel Python du projet (`.venv`) quand VS Code le demande.
+Puis lancer Claude Code dans le terminal de VS Code :
 
-## Structure
-
-```
-1.1-Premiers-pas/
-├── README.md
-├── pyproject.toml
-├── .python-version
-├── .gitignore
-│
-├── notebooks/
-│   ├── 03_premier_graphique.ipynb
-│   ├── 04_comprendre_dialogue.ipynb
-│   └── 05_cas_etude_energie.ipynb
-│
-├── exercices/
-│   ├── exercice_1_ENONCE.ipynb
-│   ├── exercice_1_CORRECTION.ipynb
-│   ├── exercice_2_ENONCE.ipynb
-│   ├── exercice_2_CORRECTION.ipynb
-│   ├── exercice_3_ENONCE.ipynb
-│   └── exercice_3_CORRECTION.ipynb
-│
-└── data/
-    ├── consommation_energie.csv
-    ├── production_industrielle.csv
-    ├── capteurs_temperature.csv
-    └── generate_data.py
+```bash
+claude
 ```
 
-## Licence
+A partir de la, suivre les lecons sur le site.
 
-Ce contenu est la propriété de Data Mastery (datamastery.dev). Usage personnel et éducatif autorisé.
+## Contenu du dossier
+
+| Dossier | Contenu |
+|---------|---------|
+| `data/` | Les fichiers CSV utilises dans les lecons |
+| `exercices/` | Des exercices avec enonce et correction |
+| `corrections/` | Le code complet de chaque lecon (a consulter en cas de blocage) |
+
+### Donnees disponibles
+
+| Fichier | Description |
+|---------|-------------|
+| `consommation_energie.csv` | Consommation electricite et gaz par batiment et zone (~2 600 lignes) |
+| `production_industrielle.csv` | Production par ligne et equipe, avec defauts (~1 500 lignes) |
+| `capteurs_temperature.csv` | Releves de capteurs toutes les 15 minutes (~500 lignes) |
+
+## Lecons sur le site
+
+| # | Lecon | Duree |
+|---|-------|-------|
+| 1.1 | [Qu'est-ce que Claude Code ?](https://datamastery.dev/module-1/lecon-1-1-quest-ce-que-claude-code) | 30 min |
+| 1.2 | [Installation](https://datamastery.dev/module-1/lecon-1-2-installation) | 45 min |
+| 1.3 | [Premier graphique](https://datamastery.dev/module-1/lecon-1-3-premier-graphique) | 60 min |
+| 1.4 | [Comprendre le dialogue](https://datamastery.dev/module-1/lecon-1-4-comprendre-le-dialogue) | 45 min |
+| - | [Cas d'etude : energie](https://datamastery.dev/module-1/cas-etude-premier-graphique-energie) | 60 min |
+
+## Besoin d'aide ?
+
+- En cas de blocage, consulter les fichiers dans `corrections/`
+- Pour les exercices, commencer par l'enonce puis comparer avec la correction
+- La lecon 1.2 sur le site contient un guide de resolution des problemes courants
