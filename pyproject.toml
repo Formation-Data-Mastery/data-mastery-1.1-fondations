@@ -1,7 +1,7 @@
 [project]
-name = "data-mastery-1-1-premiers-pas"
+name = "data-mastery-1-1-fondations"
 version = "1.0.0"
-description = "Module 1.1 — Premiers pas : de la donnée au graphique avec Claude Code"
+description = "Module 1.1 — Fondations : de la donnée au graphique avec Claude Code"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
