@@ -1,4 +1,4 @@
-# Module 1 — Premiers pas : de la donnée au graphique
+# Module 1 — Fondations : de la donnée au graphique
 
 Ce dossier contient les données et exercices du premier module de la formation [Data Mastery](https://datamastery.dev).
 
