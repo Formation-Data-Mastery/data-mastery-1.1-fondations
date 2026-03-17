@@ -50,7 +50,7 @@ claude
 | Notebook | Leçon |
 |----------|-------|
 | `notebooks/reference/01_explorer_les_donnees.ipynb` | Leçon 1.3 — Premier graphique |
-| `notebooks/reference/04_comprendre_dialogue.ipynb` | Leçon 1.4 — Comprendre le dialogue |
+| `notebooks/reference/04_comprendre_dialogue.ipynb` | Leçon 1.4 — Comprendre le chat |
 | `notebooks/reference/05_cas_etude_energie.ipynb` | Cas d'étude — Énergie |
 
 ## Leçons sur le site
@@ -60,7 +60,7 @@ claude
 | 1.1 | [Qu'est-ce que Claude Code ?](https://datamastery.dev/module-1/lecon-1-1-quest-ce-que-claude-code) | 30 min |
 | 1.2 | [Installation](https://datamastery.dev/module-1/lecon-1-2-installation) | 45 min |
 | 1.3 | [Premier graphique](https://datamastery.dev/module-1/lecon-1-3-premier-graphique) | 60 min |
-| 1.4 | [Comprendre le dialogue](https://datamastery.dev/module-1/lecon-1-4-comprendre-le-dialogue) | 45 min |
+| 1.4 | [Comprendre le chat](https://datamastery.dev/module-1/lecon-1-4-comprendre-le-chat) | 45 min |
 | — | [Cas d'étude : énergie](https://datamastery.dev/module-1/cas-etude-premier-graphique-energie) | 60 min |
 
 ## Besoin d'aide ?
