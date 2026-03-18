@@ -26,6 +26,10 @@ data-mastery-1.1-fondations/
 - Sauvegarder un graphique : `fig.write_html("../output/nom.html")`
 - Ne jamais utiliser `data/` seul depuis un notebook — toujours `../data/`
 
+**Chemins dans les notebooks de référence** (situés dans `notebooks/reference/`) :
+- Lire un fichier CSV : `pd.read_csv("../../data/nom_fichier.csv")`
+- Sauvegarder un graphique : `fig.write_html("../../output/nom.html")`
+
 ## Conventions
 
 - Commentaires en français, simples et pédagogiques
